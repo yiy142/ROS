@@ -1,0 +1,139 @@
+{
+    "osm": {
+        "@version": "0.6",
+        "@generator": "hdmap-base",
+        "bounds": {
+            "@maxlat": "31.4228763",
+            "@maxlon": "120.6352271",
+            "@minlat": "31.4217607",
+            "@minlon": "120.6341129"
+        },
+        "node": [
+            {
+                "@id": "-1",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "@lat": "31.4220262",
+                "@lon": "120.6341488",
+                "tag": {
+                    "@k": "ele",
+                    "@v": "12.18174017"
+                }
+            },
+            {
+                "@id": "-2193",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "@lat": "31.4226834",
+                "@lon": "120.6344626",
+                "tag": [
+                    {
+                        "@k": "original_id",
+                        "@v": "1626"
+                    },
+                    {
+                        "@k": "ele",
+                        "@v": "7.8374923737719655"
+                    }
+                ]
+            }
+        ],
+        "way": [
+            {
+                "@id": "351",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "nd": [
+                    {
+                        "@ref": "-1"
+                    },
+                    {
+                        "@ref": "-2"
+                    }
+                ]
+            },
+            {
+                "@id": "-2",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "tag": [
+                    {
+                        "@k": "original_id",
+                        "@v": "119"
+                    },
+                    {
+                        "@k": "type",
+                        "@v": "road_border_physical"
+                    },
+                    {
+                        "@k": "color",
+                        "@v": "unknown"
+                    }
+                ],
+                "nd": [
+                    {
+                        "@ref": "-127"
+                    },
+                    {
+                        "@ref": "-128"
+                    }
+                ]
+            }
+        ],
+        "relation": [
+            {
+                "@id": "-101",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "tag": [
+                    {
+                        "@k": "elem_id",
+                        "@v": "lg-299-unreversed-0"
+                    },
+                    {
+                        "@k": "type",
+                        "@v": "lane_group"
+                    }
+                ],
+                "member": {
+                    "@ref": "298",
+                    "@role": "0",
+                    "@type": "relation"
+                }
+            },
+            {
+                "@id": "-103",
+                "@changeset": "1",
+                "@version": "1",
+                "@timestamp": "2019-12-04T12:57:25Z",
+                "tag": [
+                    {
+                        "@k": "elem_id",
+                        "@v": "lb-299-unreversed-0-0"
+                    },
+                    {
+                        "@k": "type",
+                        "@v": "lane_boundary_group"
+                    }
+                ],
+                "member": [
+                    {
+                        "@ref": "-104",
+                        "@role": "0",
+                        "@type": "relation"
+                    },
+                    {
+                        "@ref": "-105",
+                        "@role": "1",
+                        "@type": "relation"
+                    }
+                ]
+            }
+        ]
+    }
+}
